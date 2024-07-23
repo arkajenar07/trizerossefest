@@ -560,17 +560,6 @@ footer{
     margin-top: 6.25vw;
 }
 
-.footer-head{
-    box-sizing: border-box;
-    padding-left: 5.833333333333333vw;
-    padding-right: 5.833333333333333vw;
-    height: 13.958333333333334vw;
-    background: #00A876;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .footer-head input{
     box-sizing: border-box;
     width: 25.9375vw;
@@ -627,6 +616,7 @@ footer{
 }
 
 .short-description-and-social p{
+    margin-top: 18px;
     width:  21.354166666666668vw;
     color:rgba(11, 31, 50, 0.60);
     font-family: 'Inter';
