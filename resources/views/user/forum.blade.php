@@ -25,7 +25,7 @@
                 <button>
                     <img src="asset/image/magnifying-glass.png" alt="">
                 </button>
-                <input type="text" name="" id="" placeholder="Cari Modul Belajar">
+                <input type="text" name="" id="" placeholder="Cari di Forum">
             </div>
             <div class="auth-button-container">
                 <a href="{{ url('/dashboard') }}">Dashboard</a>
@@ -35,6 +35,7 @@
                 <img src="asset/image/pp.png" alt="" class="logo">
             </div>
         </div>
+        <div></div>
     </main>
     <footer>
         <div class="footer-main">

@@ -58,6 +58,9 @@ header .auth-button-container button{
     padding: 0 32px 0 32px;
     background: none;
     border: none;
+}
+
+.auth-button-container button a{
     font-size: 20px;
     font-family: 'Raleway';
     color: #414141;
@@ -69,11 +72,12 @@ header .auth-button-container .register{
     height: 57px;
     border: 2px solid #00A876;
     border-radius: 10px;
+}
 
+.auth-button-container .register a{
     color: #00A876;
     font-weight: 700;
 }
-
 main{
     padding: 0 224px 0 224px;
 }

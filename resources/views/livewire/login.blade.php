@@ -14,7 +14,7 @@
 <body>
     <div class="contain flex">
         <div class="log-img">
-            <a href="{{url("/")}}"><img src="asset/image/logo-white.png" alt=""></a>
+            <a href="{{url('/')}}"><img src="asset/image/logo-white.png" alt=""></a>
             <h2>Selamat
                 Datang
                 Kembali</h2>

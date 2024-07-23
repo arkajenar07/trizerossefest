@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="asset/css/pembelajaran.css">
     <link rel="stylesheet" href="asset/css/main.css">
 </head>
 <body>
@@ -37,16 +38,16 @@
         </div>
 
         <div class="pembelajaran-main">
-            <section class="pembelajaran">
+        <section class="pembelajaran">
                 <div class="title-container">
                     <h1>Internet of Things untuk Pertanian dan Perkebunan</h1>
-                    <button>Selengkapnya ></button>
+                    <button><a href="#">Selengkapnya  ></a></button>
                 </div>
                 <div class="card-slider">
                     <div class="card">
                         <div class="card-image">
                             <img src="asset/image/gambar-card.png" alt="">
-                            <button></button>
+                            <img class="playbutton" src="asset/image/playbutton.png" alt="">
                             <p><img src="asset/image/clock.png" alt=""> 08 hr 12 mins</p>
                         </div>
                         <div class="card-content">
@@ -60,20 +61,79 @@
                                 <img src="asset/image/rating.png" alt="">
                                 <h5>(16,325)</h5>
                             </div>
+                            <div class="mentor">
+                            <img src="asset/image/farrel.png" alt="">
+                            <div class="desc">
+                                <h4>Farrel</h4>
+                                <h5>2001 Enrolled</h5>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="asset/image/gambar-card.png" alt="">
+                            <img class="playbutton" src="asset/image/playbutton.png" alt="">
+                            <p><img src="asset/image/clock.png" alt=""> 08 hr 12 mins</p>
+                        </div>
+                        <div class="card-content">
+                            <div class="title">
+                                <h1>Otomatisasi penyiraman tanaman</h1>
+                                <img src="asset/image/arrow-up.png" alt="">
+                            </div>
+                            <p>Use Figma to get a job in UI Design, User Interface, User Experience design.</p>
+                            <div class="rating">
+                                <h4>5.0</h4>
+                                <img src="asset/image/rating.png" alt="">
+                                <h5>(16,325)</h5>
+                            </div>
+                            <div class="mentor">
+                            <img src="asset/image/farrel.png" alt="">
+                            <div class="desc">
+                                <h4>Farrel</h4>
+                                <h5>2001 Enrolled</h5>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="asset/image/gambar-card.png" alt="">
+                            <img class="playbutton" src="asset/image/playbutton.png" alt="">
+                            <p><img src="asset/image/clock.png" alt=""> 08 hr 12 mins</p>
+                        </div>
+                        <div class="card-content">
+                            <div class="title">
+                                <h1>Otomatisasi penyiraman tanaman</h1>
+                                <img src="asset/image/arrow-up.png" alt="">
+                            </div>
+                            <p>Use Figma to get a job in UI Design, User Interface, User Experience design.</p>
+                            <div class="rating">
+                                <h4>5.0</h4>
+                                <img src="asset/image/rating.png" alt="">
+                                <h5>(16,325)</h5>
+                            </div>
+                            <div class="mentor">
+                            <img src="asset/image/farrel.png" alt="">
+                            <div class="desc">
+                                <h4>Farrel</h4>
+                                <h5>2001 Enrolled</h5>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="pembelajaran">
                 <div class="title-container">
-                    <h1>Pertanian Ramah Lingkungan</h1>
-                    <button>Selengkapnya ></button>
+                    <h1>Internet of Things untuk Pertanian dan Perkebunan</h1>
+                    <button><a href="#">Selengkapnya  ></a></button>
                 </div>
                 <div class="card-slider">
                     <div class="card">
                         <div class="card-image">
                             <img src="asset/image/gambar-card.png" alt="">
-                            <button></button>
+                            <img class="playbutton" src="asset/image/playbutton.png" alt="">
                             <p><img src="asset/image/clock.png" alt=""> 08 hr 12 mins</p>
                         </div>
                         <div class="card-content">
@@ -87,6 +147,65 @@
                                 <img src="asset/image/rating.png" alt="">
                                 <h5>(16,325)</h5>
                             </div>
+                            <div class="mentor">
+                            <img src="asset/image/farrel.png" alt="">
+                            <div class="desc">
+                                <h4>Farrel</h4>
+                                <h5>2001 Enrolled</h5>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="asset/image/gambar-card.png" alt="">
+                            <img class="playbutton" src="asset/image/playbutton.png" alt="">
+                            <p><img src="asset/image/clock.png" alt=""> 08 hr 12 mins</p>
+                        </div>
+                        <div class="card-content">
+                            <div class="title">
+                                <h1>Otomatisasi penyiraman tanaman</h1>
+                                <img src="asset/image/arrow-up.png" alt="">
+                            </div>
+                            <p>Use Figma to get a job in UI Design, User Interface, User Experience design.</p>
+                            <div class="rating">
+                                <h4>5.0</h4>
+                                <img src="asset/image/rating.png" alt="">
+                                <h5>(16,325)</h5>
+                            </div>
+                            <div class="mentor">
+                            <img src="asset/image/farrel.png" alt="">
+                            <div class="desc">
+                                <h4>Farrel</h4>
+                                <h5>2001 Enrolled</h5>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="asset/image/gambar-card.png" alt="">
+                            <img class="playbutton" src="asset/image/playbutton.png" alt="">
+                            <p><img src="asset/image/clock.png" alt=""> 08 hr 12 mins</p>
+                        </div>
+                        <div class="card-content">
+                            <div class="title">
+                                <h1>Otomatisasi penyiraman tanaman</h1>
+                                <img src="asset/image/arrow-up.png" alt="">
+                            </div>
+                            <p>Use Figma to get a job in UI Design, User Interface, User Experience design.</p>
+                            <div class="rating">
+                                <h4>5.0</h4>
+                                <img src="asset/image/rating.png" alt="">
+                                <h5>(16,325)</h5>
+                            </div>
+                            <div class="mentor">
+                            <img src="asset/image/farrel.png" alt="">
+                            <div class="desc">
+                                <h4>Farrel</h4>
+                                <h5>2001 Enrolled</h5>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>

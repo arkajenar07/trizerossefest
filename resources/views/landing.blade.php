@@ -22,7 +22,7 @@
         </nav>
         <div class="auth-button-container">
             <button><a href="{{ route('login') }}">Masuk</a></button>
-            <button class="register">Daftar</button>
+            <button class="register"><a href="{{ route('register') }}">Daftar</a></button>
         </div>
     </header>
     <main>

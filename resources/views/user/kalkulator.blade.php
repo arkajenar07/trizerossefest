@@ -21,19 +21,18 @@
     <div class="dash">
     <main style="padding: 71px;">
         <div class="head">
-            <div class="searchbar">
-                <button>
-                    <img src="asset/image/magnifying-glass.png" alt="">
-                </button>
-                <input type="text" name="" id="" placeholder="Cari Modul Belajar">
-            </div>
-            <div class="auth-button-container">
+            <div class="auth-button-container" style="margin-left: 1055px">
                 <a href="{{ url('/dashboard') }}">Dashboard</a>
                 <button id="all" class="settings">
                     <img src="asset/image/settings-arr.png" alt="">
                 </button>
                 <img src="asset/image/pp.png" alt="" class="logo">
             </div>
+        </div>
+        <div class="title-desc">
+            <h1>Kalkulator Kebutuhan Tanaman</h1>
+            <p>Taniku menyediakan kalkulator website yang membantu Anda menanam dengan mudah dan sukses! Website ini menyediakan kalkulator yang canggih untuk menghitung kebutuhan air dan pupuk yang tepat untuk tanaman Anda.</p>
+            
         </div>
     </main>
     <footer>
