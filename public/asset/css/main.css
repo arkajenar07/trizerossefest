@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.auth-button-container{
+    display: flex;
+    align-items: center;
+}
+.auth-button-container a{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Inter';
+    line-height: 28px;
+    color: #414141;
+    text-decoration: none;
+}
+
+.auth-button-container img{
+    margin-left: 48px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 224px 64px 224px ;
+    /* box-shadow: 0 3.5px 38.5px rgba(0,0,0,0.08); */
+}
+
+header nav{
+    display: flex;
+    gap: 41px;
+}
+
+header nav li{
+    list-style: none;
+    font-family: 'Inter';
+}
+
+header nav li a{
+    font-size: 18px;
+    color: #414141;
+    text-decoration: none;
+}
+
+header .auth-button-container{
+    display: flex;
+}
+
+header .auth-button-container button{
+    padding: 0 32px 0 32px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-family: 'Raleway';
+    color: #414141;
+    font-weight: 600;
+}
+
+header .auth-button-container .register{
+    width: 148px;
+    height: 57px;
+    border: 2px solid #00A876;
+    border-radius: 10px;
+
+    color: #00A876;
+    font-weight: 700;
+}
+
+main{
+    padding: 0 224px 0 224px ;
+}
+
+.section{
+    display: flex;
+}

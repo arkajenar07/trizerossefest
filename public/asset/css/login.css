@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'ABC Normal';
+    src: url(../fonts/ABCNormal.ttf);
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.log-img{
+    width: 692px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../image/image\ 98.png);
+    background-size: cover;
+}
+
+.log-img img{
+    margin-top: 61px;
+    margin-left: 100px;
+}
+
+.log-img h1 span{
+    color: #00A876;
+}
+
+.log-img h2{
+    margin-top: 300px;
+    margin-left: 100px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'ABC Normal';
+    font-size: 89px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text-content{
+    padding-left: 275px;
+    padding-top: 96px;
+}
+
+.text-content h1{
+    color: rgba(0, 0, 0, 0.80);
+font-family: 'Raleway';
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.text-content h3{
+    margin-top: 12px;
+    color: rgba(0, 0, 0, 0.50);
+font-family: 'Inter';
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.username label{
+    margin-top: 88px;
+}
+
+.password label{
+    margin-top: 26px;
+}
+
+.username label, .password label{
+
+    color: rgba(0, 0, 0, 0.80);
+font-family: 'Inter';
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.username input, .password input{
+    margin-top: 22px;
+    box-sizing: border-box;
+    padding-left: 32px;
+    width: 632px;
+height: 81px;
+flex-shrink: 0;
+
+border-radius: 15px;
+border: 2px solid #CCC;
+background: rgba(217, 217, 217, 0.00);
+
+color: rgba(0, 0, 0, 0.70);
+font-family: 'Poppins';
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.username input:focus, .password input:focus{
+    outline: none;
+    border: 2px solid #00A876;
+}
+
+.text-content button{
+    margin-top: 96px;
+    width: 632px;
+height: 81px;
+flex-shrink: 0;
+
+border-radius: 15px;
+background-color: #00A876;
+color: rgba(255, 255, 255, 0.80);
+text-align: center;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.text-content h4{
+    margin-top: 53px;
+    color: rgba(0, 0, 0, 0.50);
+text-align: center;
+font-family: 'Inter';
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.text-content h4 a{
+    color: #00A876;
+}
+
+@media screen and (max-width: 430px) {
+
+    .contain{
+        flex-direction: column;
+    }
+    .log-img{
+        margin-top: 17px;
+        margin-left: 13px;
+        width: 404px;
+        height: 122px;
+        border-radius: 15px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../image/image\ 98.png);
+        background-size: cover;
+        padding-top: 28px;
+    }
+
+    .log-img img{
+        margin: 0 auto;
+        width: 120px;
+    }
+
+    .log-img h2{
+        margin-top: 12px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .text-content{
+        padding-left: 44px;
+        padding-top: 47px;
+    }
+
+    .text-content h1{
+        text-align: center;
+    font-size: 22px;
+    }
+
+    .text-content h3{
+        margin-top: 12px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .username label{
+        margin-top: 23px;
+    }
+
+    .password label{
+        margin-top: 26px;
+    }
+
+    .username label, .password label{
+    font-size: 15px;
+    }
+
+    .username input, .password input{
+        margin-top: 10px;
+        box-sizing: border-box;
+        padding-left: 16px;
+        width: 343px;
+        height: 38px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    border: 1px solid #CCC;
+    background: rgba(217, 217, 217, 0.00);
+
+    color: rgba(0, 0, 0, 0.70);
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+
+    .username input:focus, .password input:focus{
+        outline: none;
+        border: 1px solid #00A876;
+    }
+
+    .text-content button{
+        margin-top: 26px;
+        width: 343px;
+        height: 43px;
+    flex-shrink: 0;
+
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+
+    .text-content h4{
+        margin-top: 30px;
+        font-size: 12px;
+    }
+
+    .text-content h4 a{
+        color: #00A876;
+    }
+}
