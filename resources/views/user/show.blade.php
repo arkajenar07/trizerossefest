@@ -19,10 +19,11 @@
                 <div class="detail-image">
                     <img src="{{ asset('asset/image/'.$alat->gambar) }}" alt="">
                 </div>
-                <div>
+                <div class="content-detail">
                     <h1>{{ $alat->nama_alat }}</h1>
                     <p>Rp {{ number_format($alat->harga, 0, ',', '.') }}</p>
-                    <a href="{{ url('/penyewaan') }}">Back to List</a>
+                    <button>Book on WhatsApp</button>
+                    <p><span>Include:</span> unit, acs (charger, battery x2)</p>
                 </div>
             </div>
         </main>

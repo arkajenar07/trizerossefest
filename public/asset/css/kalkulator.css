@@ -19,3 +19,34 @@ p{
     font-weight: 400;
     margin-bottom: 48px;
 }
+
+select{
+    width: 629px;
+    height: 74px;
+    border-radius: 15px;
+    background-color: #00a87614;
+    padding: 24px;
+    border: none;
+    margin-bottom: 36px;
+
+    font-size: 18px;
+    font-family: 'Raleway';
+    color: #414141;
+    font-weight: 600;
+}
+
+button{
+    width: 629px;
+    height: 74px;
+    background-color: #00A876;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 18px;
+    font-family: 'Raleway';
+    color: #FFFFFF;
+    font-weight: 600;
+
+}
+
+

@@ -78,7 +78,7 @@
                     <div class="details-and-button">
                         <div class="details">
                             <img class="details-img" src="asset/image/details.png" alt="">
-                            <h3><img src="asset/image/chat.png" alt=""> {{ $forum->comments_count }} Jawaban</h3>
+                            <h3><img src="asset/image/chat.png" alt="">16 Jawaban</h3>
                         </div>
                         <button><a href="{{ url('/forum/' . $forum->id) }}">Jawab</a></button>
                     </div>

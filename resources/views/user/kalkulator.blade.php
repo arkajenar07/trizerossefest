@@ -36,8 +36,23 @@
         </div>
         <div class="kalkulator">
             <div style="display: flex; flex-direction: column; width: 629px">
-                <img style=""src="asset/image/dropdown-gim.png" alt="">
-                <button style="border: none; background: none; margin-top: 32px"><img src="asset/image/submit.png"></button>
+                <select name="" id="">
+                    <option value="">Pilih jenis tanaman</option>
+                    <option value="">Mangga</option>
+                </select>
+                <select name="" id="">
+                    <option value="">Pilih kondisi lingkungan</option>
+                    <option value="">Panas Terik</option>
+                </select>
+                <select name="" id="">
+                    <option value="">Pilih kondisi lingkungan</option>
+                    <option value="">Panas Terik</option>
+                </select>
+                <select name="" id="">
+                    <option value="">Pilih kondisi lingkungan</option>
+                    <option value="">Panas Terik</option>
+                </select>
+                <button style="border: none;">submit</button>
             </div>
             <img src="asset/image/details-tanaman.png">
         </div>

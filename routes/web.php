@@ -7,6 +7,10 @@ use App\Livewire\Dashboard;
 use App\Livewire\Logout;
 use App\Http\Controllers\PenyewaanController;
 use App\Http\Controllers\ForumController;
+use App\Http\Controllers\ReplyController;
+
+Route::get('/forum/{id}', [ForumController::class, 'show']);
+Route::post('/forum/{id}/reply', [ReplyController::class, 'store'])->name('reply.store');
 
 
 

@@ -216,3 +216,91 @@ form textarea {
     color: #414141;
     font-weight: 500;
 }
+
+.title-user{
+    display: flex;
+    align-items: center;
+}
+
+.title-user p{
+    font-size: 20px;
+    font-family: 'Inter';
+    color: #414141;
+    font-weight: 500;
+}
+
+.container{
+    padding: 16px 100px 0 100px;
+}
+
+.container h1{
+    margin-top: 48px;
+    font-size: 36px;
+    font-family: 'Raleway';
+    color: #414141;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.container h2{
+    margin-top: 108px;
+    font-size: 20px;
+    font-family: 'Raleway';
+    color: #414141;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.container p{
+    width: 1100px;
+    margin-top: 24px;
+    font-size: 16px;
+    font-family: 'Inter';
+    color: #414141;
+    font-weight: 500;
+}
+
+.reply{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.reply img{
+    margin-right: 10px;
+}
+
+.reply p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Inter';
+    color: #414141;
+    font-weight: 500;
+}
+
+.reply .content{
+    margin-top: 0px;
+    font-size: 16px;
+    font-family: 'Inter';
+    color: #414141;
+    font-weight: 500;
+}
+
+.container textarea{
+    margin-top: 18px;
+    height: 100px;
+}
+
+.container button{
+    margin-top: 48px;
+    width: 190px;
+    height: 48px;
+    background-color: #00A876;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Raleway';
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+}

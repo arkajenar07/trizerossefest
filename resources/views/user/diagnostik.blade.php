@@ -21,13 +21,7 @@
     <div class="dash">
     <main style="padding: 71px;">
         <div class="head">
-            <div class="searchbar">
-                <button>
-                    <img src="asset/image/magnifying-glass.png" alt="">
-                </button>
-                <input type="text" name="" id="" placeholder="Cari Modul Belajar">
-            </div>
-            <div class="auth-button-container">
+            <div class="auth-button-container" style="margin-left: 1200px">
                 <a href="{{ url('/dashboard') }}">Dashboard</a>
                 <button id="all" class="settings">
                     <img src="asset/image/settings-arr.png" alt="">
@@ -35,7 +29,124 @@
                 <img src="asset/image/pp.png" alt="" class="logo">
             </div>
         </div>
-        <img style="margin-top: 48px" src="asset/image/diagnose-gimmick.png" alt="">
+        <style>
+            body {
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+            }
+        
+            .container {
+              max-width: 600px;
+              margin: 20px auto;
+              background-color: #fff;
+              padding: 20px;
+              border-radius: 8px;
+              box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+        
+            h1 {
+              text-align: center;
+            }
+        
+            input[type="text"] {
+              width: calc(100% - 42px);
+              padding: 10px;
+              margin-bottom: 10px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              font-size: 16px;
+            }
+        
+            .file-upload-container {
+              position: relative;
+              overflow: hidden;
+              margin-bottom: 20px;
+              border: 5px dashed #ccc;
+              padding: 200px;
+              border-radius: 5px;
+              text-align: center;
+            }
+        
+            .file-upload-input {
+              position: absolute;
+              top: 0;
+              left: 0;
+              opacity: 0;
+              cursor: pointer;
+            }
+        
+            .file-upload-button {
+              display: inline-block;
+              padding: 10px 20px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              cursor: pointer;
+              background-color: #f0f0f0;
+              transition: background-color 0.3s ease;
+            }
+        
+            .file-upload-button:hover {
+              background-color: #e0e0e0;
+            }
+        
+            .file-upload-preview {
+              width: 100%;
+              max-height: 200px;
+              margin-top: 10px;
+              object-fit: cover;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+            }
+        
+            button[type="submit"] {
+              display: block;
+              width: 100%;
+              padding: 10px;
+              background-color: #4CAF50;
+              color: white;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              font-size: 16px;
+              margin-top: 10px;
+              transition: background-color 0.3s ease;
+            }
+        
+            button[type="submit"]:hover {
+              background-color: #45a049;
+            }
+          </style>
+          <div class="container">
+            <h1>Upload Box Image</h1>
+        
+            <input type="text" placeholder="Enter image description (optional)">
+        
+            <div class="file-upload-container">
+              <input type="file" class="file-upload-input" id="file-upload" accept="image/*">
+              <label for="file-upload" class="file-upload-button">Select Image</label>
+              <img src="#" alt="Uploaded Image" class="file-upload-preview">
+            </div>
+        
+            <button type="submit">Upload</button>
+          </div>
+        
+          <script>
+            const fileUpload = document.getElementById('file-upload');
+            const previewImage = document.querySelector('.file-upload-preview');
+        
+            fileUpload.addEventListener('change', function() {
+              if (this.files && this.files[0]) {
+                const reader = new FileReader();
+        
+                reader.onload = function(e) {
+                  previewImage.src = e.target.result;
+                };
+        
+                reader.readAsDataURL(this.files[0]);
+              }
+            });
+          </script>        
     </main>
     <footer>
         <div class="footer-main">
