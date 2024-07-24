@@ -327,3 +327,32 @@ footer{
     width: 20px;
 }
 
+.menu-back{
+    padding-left: 82px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-back a{
+    display: flex;
+    align-items: center;
+
+    font-size: 24px;
+    font-family: 'Raleway';
+    color: #414141;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu-back a img{
+    margin-right: 30px;
+}
+
+.menu-back h1{
+    margin-left: 412px;
+    font-size: 24px;
+    font-family: 'Inter';
+    color: #414141;
+    font-weight: 600;
+}

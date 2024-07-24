@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="asset/css/main.css">
+    <link rel="stylesheet" href="asset/css/forum.css">
 </head>
 <body>
     <div class="sidebar">
@@ -35,7 +36,30 @@
                 <img src="asset/image/pp.png" alt="" class="logo">
             </div>
         </div>
-        <div></div>
+        <div class="button-filter">
+            <div class="filter">
+                <button>Yang Terbaru</button>
+                <button>Kata Kunci</button>
+            </div>
+            <button>+ Buat Diskusi Baru</button>
+        </div>
+        <div class="forum-list">
+            <div class="forum-card">
+                <img class="logo" src="asset/image/ezar.png" alt="">
+                <div class="forum-content">
+                    <h1>Bagaimana cara menanam padi tanpa pestisida?</h1>
+                    <h2>Dari<span> Arka Jenar Ma’arif </span> - 12 menit yang lalu</h2>
+                    <p>Saya memiliki sawah di dekat rumah, namun saya ingin mencoba untuk padi tanpa pestisida untuk menekan biaya agar terlalu boros. Apakah ada altrenatif lain agar padi saya tetap tumbuh tanpa hama.</p>
+                </div>
+                <div class="details-and-button">
+                    <div class="details">
+                        <img class="details-img" src="asset/image/details.png" alt="">
+                        <h3><img src="asset/image/chat.png" alt=""> 16 Jawaban</h3>
+                    </div>
+                    <button><a href="{{ url('/') }}">Jawab</a></button>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="footer-main">
@@ -70,7 +94,7 @@
             </div>
         </div>
         <div class="footer-foot">
-            Copyright © 2023. Miracle of Bali. All right reserved
+            Copyright © 2023. Taniku All right reserved
         </div>
     </footer>
     </div>

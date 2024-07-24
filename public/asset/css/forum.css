@@ -1,0 +1,122 @@
+.button-filter{
+    margin-top: 67px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.button-filter button{
+    padding: 18px;
+    background-color: #00A876;
+    border: none;
+    border-radius: 15px;
+
+    font-size: 20px;
+    font-family: 'Raleway';
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+
+
+.filter button{
+    padding: 18px 32px 18px 32px;
+    background-color: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 15px;
+
+    font-size: 20px;
+    font-family: 'Raleway';
+    color: #414141;
+    font-weight: 700;
+}
+
+.forum-card{
+    margin-top: 40px;
+    display: flex;
+    padding: 42px;
+    border: 2px solid #d9d9d9;
+    border-radius: 20px;
+}
+
+.forum-card .logo{
+    height: 82px;
+}
+
+.forum-card .forum-content{
+    margin-left: 30px;
+}
+
+.forum-card .forum-content h1{
+    font-size: 24px;
+    font-family: 'Raleway';
+    color: #414141;
+    font-weight: 700;
+}
+
+.forum-card .forum-content h2{
+    margin-top: 12px;
+    font-size: 18px;
+    font-family: 'Inter';
+    color: #414141;
+    font-weight: 400;
+}
+
+.forum-card .forum-content h2 span{
+    font-weight: 500;
+}
+
+.forum-card .forum-content p{
+    width: 773px;
+    margin-top: 12px;
+    font-size: 18px;
+    font-family: 'Inter';
+    color: #414141;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.details-and-button{
+    margin-left: 64px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+}
+.details-img{
+    width: 169px;
+    height: 48px;
+}
+
+.details h3{
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Inter';
+    color: #414141;
+    font-weight: 500;
+}
+
+.details h3 img{
+    margin-right: 20px;
+}
+
+.details-and-button button{
+    margin-top: 51px;
+    margin-left: 194px;
+    width: 144px;
+    height: 49px;
+    background-color: #FFFFFF;
+    border: 2px solid #00A876;
+    border-radius: 10px;
+}
+
+.details-and-button button a{
+    font-size: 18px;
+    font-family: 'Raleway';
+    color: #00A876;
+    font-weight: 700;
+    text-decoration: none;
+}

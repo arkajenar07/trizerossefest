@@ -12,36 +12,6 @@ body{
     padding-left: 82px;
 }
 
-.menu-back{
-    padding-left: 82px;
-    height: 150px;
-    display: flex;
-    align-items: center;
-}
-
-.menu-back a{
-    display: flex;
-    align-items: center;
-
-    font-size: 24px;
-    font-family: 'Raleway';
-    color: #414141;
-    font-weight: 700;
-    text-decoration: none;
-}
-
-.menu-back a img{
-    margin-right: 30px;
-}
-
-.menu-back h1{
-    margin-left: 412px;
-    font-size: 24px;
-    font-family: 'Inter';
-    color: #414141;
-    font-weight: 600;
-}
-
 .video-item{
     margin-left: -82px;
     position: relative;
@@ -59,6 +29,12 @@ body{
 .video-item video{
     width: 1266px;
     height: 692px;
+}
+
+.check{
+    accent-color: #414141;
+    width: 32px;
+    height: 32px;
 }
 
 .video-container.expanded .video-item video{

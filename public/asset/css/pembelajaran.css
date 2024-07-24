@@ -88,6 +88,10 @@
     display: flex;
 }
 
+.card-content a{
+    text-decoration: none;
+}
+
 .card-content h1{
     width: 333px; 
     overflow: hidden; 

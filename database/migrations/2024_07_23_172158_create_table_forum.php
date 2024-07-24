@@ -11,8 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('table_forum', function (Blueprint $table) {
+        Schema::create('forum', function (Blueprint $table) {
             $table->id();
+            $table->string('pertanyaan');
+            $table->string('uraian');
+            $table->string('katakunci');
+            $table->bigInteger('user_id')->unsigned()->index()->nullable();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->timestamps();
         });
     }

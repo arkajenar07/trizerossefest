@@ -5,6 +5,9 @@ use App\Livewire\Register;
 use App\Livewire\Login;
 use App\Livewire\Dashboard;
 use App\Livewire\Logout;
+use App\Http\Controllers\PenyewaanController;
+
+
 
 Route::get('/', function () {
     return view('landing');
@@ -30,9 +33,10 @@ Route::get('/diagnostik', function () {
     return view('user.diagnostik');
 });
 
-Route::get('/penyewaan', function () {
-    return view('user.penyewaan');
-});
+Route::get('/penyewaan', [PenyewaanController::class, 'index'])->name('penyewaan');
+
+Route::get('/penyewaan/{id}', [PenyewaanController::class, 'show'])->name('penyewaan.show');
+
 
 Route::group(['middleware'=>'guest'], function(){
     Route::get('/register', Register::class)->name('register');

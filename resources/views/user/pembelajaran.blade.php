@@ -52,7 +52,7 @@
                         </div>
                         <div class="card-content">
                             <div class="title">
-                                <h1>Otomatisasi penyiraman tanaman</h1>
+                                <a href="{{ url('/videolist') }}"><h1>Otomatisasi penyiraman tanaman</h1></a>
                                 <img src="asset/image/arrow-up.png" alt="">
                             </div>
                             <p>Use Figma to get a job in UI Design, User Interface, User Experience design.</p>
@@ -78,7 +78,7 @@
                         </div>
                         <div class="card-content">
                             <div class="title">
-                                <h1>Otomatisasi penyiraman tanaman</h1>
+                                <a href="{{ url('/videolist') }}"><h1>Otomatisasi penyiraman tanaman</h1></a>
                                 <img src="asset/image/arrow-up.png" alt="">
                             </div>
                             <p>Use Figma to get a job in UI Design, User Interface, User Experience design.</p>
@@ -104,7 +104,7 @@
                         </div>
                         <div class="card-content">
                             <div class="title">
-                                <h1>Otomatisasi penyiraman tanaman</h1>
+                                <a href="{{ url('/videolist') }}"><h1>Otomatisasi penyiraman tanaman</h1></a>
                                 <img src="asset/image/arrow-up.png" alt="">
                             </div>
                             <p>Use Figma to get a job in UI Design, User Interface, User Experience design.</p>
@@ -138,7 +138,7 @@
                         </div>
                         <div class="card-content">
                             <div class="title">
-                                <h1>Otomatisasi penyiraman tanaman</h1>
+                                <a href="{{ url('/videolist') }}"><h1>Otomatisasi penyiraman tanaman</h1></a>
                                 <img src="asset/image/arrow-up.png" alt="">
                             </div>
                             <p>Use Figma to get a job in UI Design, User Interface, User Experience design.</p>
@@ -164,7 +164,7 @@
                         </div>
                         <div class="card-content">
                             <div class="title">
-                                <h1>Otomatisasi penyiraman tanaman</h1>
+                                <a href="{{ url('/videolist') }}"><h1>Otomatisasi penyiraman tanaman</h1></a>
                                 <img src="asset/image/arrow-up.png" alt="">
                             </div>
                             <p>Use Figma to get a job in UI Design, User Interface, User Experience design.</p>
@@ -190,7 +190,7 @@
                         </div>
                         <div class="card-content">
                             <div class="title">
-                                <h1>Otomatisasi penyiraman tanaman</h1>
+                                <a href="{{ url('/videolist') }}"><h1>Otomatisasi penyiraman tanaman</h1></a>
                                 <img src="asset/image/arrow-up.png" alt="">
                             </div>
                             <p>Use Figma to get a job in UI Design, User Interface, User Experience design.</p>
@@ -245,7 +245,7 @@
             </div>
         </div>
         <div class="footer-foot">
-            Copyright © 2023. Miracle of Bali. All right reserved
+            Copyright © 2023. Taniku All right reserved
         </div>
     </footer>
     </div>

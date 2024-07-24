@@ -32,7 +32,25 @@
         <div class="title-desc">
             <h1>Kalkulator Kebutuhan Tanaman</h1>
             <p>Taniku menyediakan kalkulator website yang membantu Anda menanam dengan mudah dan sukses! Website ini menyediakan kalkulator yang canggih untuk menghitung kebutuhan air dan pupuk yang tepat untuk tanaman Anda.</p>
-            
+        </div>
+        <div class="kalkulator">
+            <select name="nama-tanaman" id="">
+                <option value="">Masukkan jenis tanaman</option>
+                <option value="1">Mangga</option>
+            </select>
+            <select name="nama-tanaman" id="">
+                <option value="">Masukkan jenis tanaman</option>
+                <option value="1">Mangga</option>
+            </select>
+            <select name="nama-tanaman" id="">
+                <option value="">Masukkan jenis tanaman</option>
+                <option value="1">Mangga</option>
+            </select>
+            <select name="nama-tanaman" id="">
+                <option value="">Masukkan jenis tanaman</option>
+                <option value="1">Mangga</option>
+            </select>
+
         </div>
     </main>
     <footer>
@@ -68,7 +86,7 @@
             </div>
         </div>
         <div class="footer-foot">
-            Copyright © 2023. Miracle of Bali. All right reserved
+            Copyright © 2023. Taniku All right reserved
         </div>
     </footer>
     </div>

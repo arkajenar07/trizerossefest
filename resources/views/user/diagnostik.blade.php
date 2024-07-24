@@ -69,7 +69,7 @@
             </div>
         </div>
         <div class="footer-foot">
-            Copyright © 2023. Miracle of Bali. All right reserved
+            Copyright © 2023. Taniku All right reserved
         </div>
     </footer>
     </div>
