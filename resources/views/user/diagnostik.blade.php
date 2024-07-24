@@ -35,6 +35,7 @@
                 <img src="asset/image/pp.png" alt="" class="logo">
             </div>
         </div>
+        <img style="margin-top: 48px" src="asset/image/diagnose-gimmick.png" alt="">
     </main>
     <footer>
         <div class="footer-main">

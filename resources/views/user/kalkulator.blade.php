@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="asset/css/main.css">
+    <link rel="stylesheet" href="asset/css/kalkulator.css">
 </head>
 <body>
     <div class="sidebar">
@@ -34,23 +35,11 @@
             <p>Taniku menyediakan kalkulator website yang membantu Anda menanam dengan mudah dan sukses! Website ini menyediakan kalkulator yang canggih untuk menghitung kebutuhan air dan pupuk yang tepat untuk tanaman Anda.</p>
         </div>
         <div class="kalkulator">
-            <select name="nama-tanaman" id="">
-                <option value="">Masukkan jenis tanaman</option>
-                <option value="1">Mangga</option>
-            </select>
-            <select name="nama-tanaman" id="">
-                <option value="">Masukkan jenis tanaman</option>
-                <option value="1">Mangga</option>
-            </select>
-            <select name="nama-tanaman" id="">
-                <option value="">Masukkan jenis tanaman</option>
-                <option value="1">Mangga</option>
-            </select>
-            <select name="nama-tanaman" id="">
-                <option value="">Masukkan jenis tanaman</option>
-                <option value="1">Mangga</option>
-            </select>
-
+            <div style="display: flex; flex-direction: column; width: 629px">
+                <img style=""src="asset/image/dropdown-gim.png" alt="">
+                <button style="border: none; background: none; margin-top: 32px"><img src="asset/image/submit.png"></button>
+            </div>
+            <img src="asset/image/details-tanaman.png">
         </div>
     </main>
     <footer>

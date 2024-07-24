@@ -20,6 +20,29 @@
         </ul>
     </div>
     <div class="dash">
+    <!-- Popup Form -->
+<div id="popup-form" class="popup">
+    <div class="popup-content">
+        <span class="close-button" onclick="closePopup()">&times;</span>
+        <h2>Buat Diskusi Baru</h2>
+        <form id="forum-form" action="{{ url('/forum/create') }}" method="POST">
+            @csrf
+            <label for="pertanyaan">Judul Pertanyaan</label>
+            <input type="text" id="pertanyaan" name="pertanyaan" required>
+            
+            <label for="uraian">Uraian:</label>
+            <textarea id="uraian" name="uraian" required></textarea>
+            
+            <label for="katakunci">Kata Kunci:</label>
+            <input type="text" id="katakunci" name="katakunci">
+            
+            <input type="hidden" name="user_id" value="{{ auth()->user()->id }}">
+            
+            <button type="submit">Buat Diskusi</button>
+        </form>
+    </div>
+</div>
+
     <main style="padding: 71px;">
         <div class="head">
             <div class="searchbar">
@@ -41,24 +64,26 @@
                 <button>Yang Terbaru</button>
                 <button>Kata Kunci</button>
             </div>
-            <button>+ Buat Diskusi Baru</button>
+            <button onclick="openPopup()">+ Buat Diskusi Baru</button>
         </div>
         <div class="forum-list">
-            <div class="forum-card">
-                <img class="logo" src="asset/image/ezar.png" alt="">
-                <div class="forum-content">
-                    <h1>Bagaimana cara menanam padi tanpa pestisida?</h1>
-                    <h2>Dari<span> Arka Jenar Ma’arif </span> - 12 menit yang lalu</h2>
-                    <p>Saya memiliki sawah di dekat rumah, namun saya ingin mencoba untuk padi tanpa pestisida untuk menekan biaya agar terlalu boros. Apakah ada altrenatif lain agar padi saya tetap tumbuh tanpa hama.</p>
-                </div>
-                <div class="details-and-button">
-                    <div class="details">
-                        <img class="details-img" src="asset/image/details.png" alt="">
-                        <h3><img src="asset/image/chat.png" alt=""> 16 Jawaban</h3>
+            @foreach ($forums as $forum)
+                <div class="forum-card">
+                    <img class="logo" src="asset/image/ezar.png" alt="">
+                    <div class="forum-content">
+                        <h1>{{ $forum->pertanyaan }}</h1>
+                        <h2>Dari<span> {{ $forum->user->name }} </span> - {{ $forum->created_at->diffForHumans() }}</h2>
+                        <p>{{ $forum->uraian }}</p>
                     </div>
-                    <button><a href="{{ url('/') }}">Jawab</a></button>
+                    <div class="details-and-button">
+                        <div class="details">
+                            <img class="details-img" src="asset/image/details.png" alt="">
+                            <h3><img src="asset/image/chat.png" alt=""> {{ $forum->comments_count }} Jawaban</h3>
+                        </div>
+                        <button><a href="{{ url('/forum/' . $forum->id) }}">Jawab</a></button>
+                    </div>
                 </div>
-            </div>
+            @endforeach
         </div>
     </main>
     <footer>
@@ -98,5 +123,22 @@
         </div>
     </footer>
     </div>
+    <script>
+        function openPopup() {
+            document.getElementById('popup-form').style.display = 'block';
+        }
+
+        function closePopup() {
+            document.getElementById('popup-form').style.display = 'none';
+        }
+
+        // Optional: Close popup if user clicks outside of it
+        window.onclick = function(event) {
+            if (event.target == document.getElementById('popup-form')) {
+                closePopup();
+            }
+        }
+
+    </script>
 </body>
 </html>

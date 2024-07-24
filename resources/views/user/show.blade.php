@@ -6,29 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Detail Alat</title>
-    <link rel="stylesheet" href="{{ asset('asset/css/penyewaan.css') }}">
+    <link rel="stylesheet" href="{{ asset('asset/css/show.css') }}">
     <link rel="stylesheet" href="{{ asset('asset/css/main.css') }}">
 </head>
 <body>
     <div class="menu-back">
-        <a href="{{ url('/penyewaan') }}"><img src="asset/image/back.png" alt="">Kembali</a>
-        <h1>Otomatisasi penyiraman tanaman dengan teknologi IoT</h1>
+        <a href="{{ url('/penyewaan') }}"><img src="{{ asset('asset/image/back.png')  }}" alt="">Kembali</a>
+        <h1>{{ $alat->nama_alat }}</h1>
     </div>
-    <div class="dash">
         <main style="padding: 71px;">
             <div class="detail">
-                <h1>{{ $alat->nama_alat }}</h1>
                 <div class="detail-image">
                     <img src="{{ asset('asset/image/'.$alat->gambar) }}" alt="">
                 </div>
-                <p>{{ $alat->atribut }}</p>
-                <p>Rp {{ number_format($alat->harga, 0, ',', '.') }}</p>
-                <!-- Add more details if needed -->
-                <a href="{{ url('/penyewaan') }}">Back to List</a>
+                <div>
+                    <h1>{{ $alat->nama_alat }}</h1>
+                    <p>Rp {{ number_format($alat->harga, 0, ',', '.') }}</p>
+                    <a href="{{ url('/penyewaan') }}">Back to List</a>
+                </div>
             </div>
         </main>
         <footer>
-            <!-- Your footer content here -->
+            <div class="footer-main">
+                <div class="short-description-and-social">
+                    <h1>Taniku</h1>
+                    <p>Taniku is a platform for those of you who want to increase your business opportunities and opportunities to be more attractive and recognized by many people. With Taniku increase your farming plan.</p>
+                    <div class="social">
+                        <img src="asset/image/Group%2013.png" alt="">
+                        <img src="asset/image/Group%2011.png" alt="">
+                        <img src="asset/image/Group%2010.png" alt="">
+                    </div>
+                </div>
+                <div class="links">
+                    <ul class="links-item">
+                        <li class="links-title">Informations</li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                    <ul class="links-item">
+                        <li class="links-title">Fitur</li>
+                        <li><a href="#">Podcast</a></li>
+                        <li><a href="#">Podcast</a></li>
+                        <li><a href="#">Podcast</a></li>
+                    </ul>
+                    <ul class="links-item">
+                        <li class="links-title">Fitur</li>
+                        <li><a href="#">Podcast</a></li>
+                        <li><a href="#">Podcast</a></li>
+                        <li><a href="#">Podcast</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-foot">
+                Copyright © 2023. Taniku All right reserved
+            </div>
         </footer>
     </div>
 </body>

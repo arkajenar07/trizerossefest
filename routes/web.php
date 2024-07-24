@@ -6,6 +6,7 @@ use App\Livewire\Login;
 use App\Livewire\Dashboard;
 use App\Livewire\Logout;
 use App\Http\Controllers\PenyewaanController;
+use App\Http\Controllers\ForumController;
 
 
 
@@ -21,9 +22,8 @@ Route::get('/videolist', function () {
     return view('user.video-list');
 });
 
-Route::get('/forum', function () {
-    return view('user.forum');
-});
+Route::get('/forum', [ForumController::class, 'index']);
+Route::post('/forum/create', [ForumController::class, 'store'])->name('forum.store');
 
 Route::get('/kalkulator', function () {
     return view('user.kalkulator');

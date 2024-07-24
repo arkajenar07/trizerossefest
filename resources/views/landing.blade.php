@@ -14,11 +14,11 @@
         <img src="asset/image/logo.png" alt="" class="logo">
         <nav>
             <li class="active"><a href="#">Beranda</a></li>
-            <li><a href="#">Tentang Kami</a></li>
-            <li><a href="#">Layanan</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Testimoni</a></li>
-            <li><a href="#">Kontak</a></li>
+            <li><a href="#sec2">Tentang Kami</a></li>
+            <li><a href="#sec3">Layanan</a></li>
+            <li><a href="#sec4">FAQ</a></li>
+            <li><a href="#sec5">Testimoni</a></li>
+            <li><a href="#sec6">Kontak</a></li>
         </nav>
         <div class="auth-button-container">
             <button><a href="{{ route('login') }}">Masuk</a></button>

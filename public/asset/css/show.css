@@ -1,0 +1,21 @@
+.detail{
+    display: flex;
+}
+
+.detail img{
+    width: 720px;
+}
+
+.detail h1{
+    font-size: 32px;
+    font-family: 'Raleway';
+    color: #414141;
+    font-weight: 600;
+}
+
+.detail p{
+    font-size: 32px;
+    font-family: 'Inter';
+    color: #414141;
+    font-weight: 300;
+}

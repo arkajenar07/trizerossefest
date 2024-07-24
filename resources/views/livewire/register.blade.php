@@ -15,11 +15,11 @@
 <body>
     <div class="contain flex">
         <div class="log-img">
-            <img src="../image/your-logo.png" alt="Logo">
-            <h2>Join Us Today!</h2>
+            <a href="{{url('/')}}"><img src="asset/image/logo-white.png" alt=""></a>
+            <h2>Halo, User Baru</h2>
         </div>
         <div class="text-content col-md-8">
-            <h1>Register</h1>
+            <h1>Buat Akun Taniku</h1>
             <h3>Create your account</h3>
             <form wire:submit="register">
                 <div class="email flex flex-col">

@@ -33,12 +33,12 @@ line-height: normal;
 
 .text-content{
     padding-left: 165px;
-    padding-top: 64px;
+    padding-top: 160px;
 }
 
 .text-content h1{
     color: rgba(0, 0, 0, 0.80);
-font-family: 'Inter';
+font-family: 'Raleway';
 font-size: 48px;
 font-style: normal;
 font-weight: 700;
@@ -115,7 +115,7 @@ line-height: normal;
 
 .username input:focus, .password input:focus, .confirm-pass input:focus, .email input:focus{
     outline: none;
-    border: 2px solid #EBB612;
+    border: 2px solid #00A876;
 }
 
 .confirm-pass{
@@ -130,7 +130,6 @@ line-height: normal;
 
 border-radius: 15px;
 background: #00A876;
-box-shadow: 1px 6px 14px 0px rgba(236, 176, 17, 0.10), 4px 24px 25px 0px rgba(236, 176, 17, 0.09), 8px 55px 33px 0px rgba(236, 176, 17, 0.05), 15px 98px 40px 0px rgba(236, 176, 17, 0.01), 23px 153px 43px 0px rgba(236, 176, 17, 0.00);
 color: rgba(255, 255, 255, 0.80);
 text-align: center;
 font-family: Poppins;
@@ -153,7 +152,7 @@ line-height: normal;
 }
 
 .text-content h4 a{
-    color: #FA7C0A;
+    color: #00A876;
 }
 
 @media screen and (max-width: 430px) {
@@ -246,7 +245,7 @@ line-height: normal;
 
     .username input:focus, .password input:focus{
         outline: none;
-        border: 1px solid #EBB612;
+        border: 1px solid #00A876;
     }
 
     .text-content button{
@@ -256,7 +255,7 @@ line-height: normal;
     flex-shrink: 0;
 
     border-radius: 30px;
-    background: linear-gradient(270deg, #FA7C0A -22.9%, #E8BE13 99.66%);
+    background: linear-gradient(270deg, #00A876 -22.9%, #E8BE13 99.66%);
     box-shadow: 1px 6px 14px 0px rgba(236, 176, 17, 0.10), 4px 24px 25px 0px rgba(236, 176, 17, 0.09), 8px 55px 33px 0px rgba(236, 176, 17, 0.05), 15px 98px 40px 0px rgba(236, 176, 17, 0.01), 23px 153px 43px 0px rgba(236, 176, 17, 0.00);
     color: rgba(255, 255, 255, 0.80);
     text-align: center;
@@ -273,6 +272,6 @@ line-height: normal;
     }
 
     .text-content h4 a{
-        color: #FA7C0A;
+        color: #00A876;
     }
 }
